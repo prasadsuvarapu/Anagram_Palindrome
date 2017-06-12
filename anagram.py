@@ -1,6 +1,6 @@
 import csv
 # Reading data from csv file provided.
-with open('anagram.csv') as check_file:
+with open('dataFile.csv') as check_file:
     palindrome = csv.reader(check_file, delimiter=',', quotechar='|')
     row = []
     for key in palindrome:
